@@ -1,4 +1,3 @@
-package telepromter;
 
 
 import java.io.*;
@@ -21,7 +20,7 @@ public class QuickNote{
 	JLabel jl = new JLabel();
 	JScrollPane sp;
 	Font font;
-	ImageIcon icon = new ImageIcon("/Users/Nitin/Desktop/icon.jpeg");
+	ImageIcon icon = new ImageIcon("/Users/Surya/Desktop/icon.jpeg");
 	private String[] keyword = new String[100];
 	private int words = 0;
 	Scanner scanner = null;
@@ -50,7 +49,7 @@ public class QuickNote{
 		frame.setBounds(200, 100, 900, 900);
 		frame.setTitle("QuickNotes");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setContentPane(new JLabel(new ImageIcon("/Users/Nitin/Desktop/back1.jpg")));
+		frame.setContentPane(new JLabel(new ImageIcon("/Users/Surya/Desktop/back1.jpg")));
 		frame.setLayout(null);
 
 		buttonStart = new JButton("Create QuickNotes", icon);
